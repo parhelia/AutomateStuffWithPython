@@ -9,7 +9,10 @@ for i in range(0, len(tableData)):
         if len(j) > colWidths[i]:
             colWidths[i] = len(j)
 
-print(colWidths) # print computed column widths
+#print(colWidths) # print computed column widths
 
-for i in range(0, len(tableData[0])):
-    print(tableData[0][i].rjust(colWidths[0]) + ' ' + tableData[1][i].rjust(colWidths[1]) + ' ' + tableData[2][i].rjust(colWidths[2]))
+def printTable():
+    for i in range(0, len(tableData[0])):
+        print(tableData[0][i].rjust(colWidths[0]) + ' ' + tableData[1][i].rjust(colWidths[1]) + ' ' + tableData[2][i].rjust(colWidths[2]))
+
+printTable()
