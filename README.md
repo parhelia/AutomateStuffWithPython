@@ -1,1 +1,2 @@
-# AutomateStuffWithPython
+# Automate Stuff With Python
+Note: This repo is not affiliated with the book of the same name, by Al Sweigart. This is a personal, non-commercial effort by me to follow along to the book. Thus it may contain contain code that is within the book. This repo and its owner/maintainer disclaims any rights to code that is presented within the book, which remains with its author Al Sweigart. Please don't sue me.
